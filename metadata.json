@@ -1,0 +1,5 @@
+{
+  "name": "SmartPath AI 智能导师",
+  "description": "一个自适应学习平台，根据您的熟练程度生成个性化测验，动态调整难度以优化学习曲线。",
+  "requestFramePermissions": []
+}
