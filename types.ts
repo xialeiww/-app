@@ -27,8 +27,21 @@ export interface QuizState {
   streak: number;
 }
 
+export interface StudyPlanDay {
+  day: number;
+  topic: string;
+  activities: string[];
+  focus: string;
+  status?: 'locked' | 'current' | 'completed';
+}
+
+export interface StudyMaterialContent {
+  markdown: string;
+}
+
 export enum AppStatus {
   IDLE = 'IDLE',
+  MATERIAL_VIEW = 'MATERIAL_VIEW',
   QUIZ = 'QUIZ',
   SUMMARY = 'SUMMARY',
   ERROR = 'ERROR'
